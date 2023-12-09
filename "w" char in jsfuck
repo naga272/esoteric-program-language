@@ -51,8 +51,9 @@ semplifico:
 (32)["toString"]("33")
 
 la scrittura: (32)["toString"]("33") 
-per l'interprete javascript da come risultato il carattere 'w', di conseguenza abbiamo trovato il carattere che volevamo trovare
-
+In questo contesto, il numero 32 è trattato come un oggetto e "toString" è interpretato come una proprietà dell'oggetto 32. La stringa "33" è usata come parametro per l'accesso a questa proprietà. In JavaScript, questa combinazione di numeri e stringhe può portare a risultati sorprendenti e, in questo caso particolare, restituisce la stringa "w".
+Ciò che succede è che la stringa "33" è considerata come una base numerica quando viene usata in questo contesto. Quando "33" è interpretato come una base numerica 33 in base 32 (dato il numero 32 di partenza), il risultato è 32 in base 33, che viene rappresentato dalla lettera "w" nell'alfabeto.
+Ecco perché ottieni "w" come output da quel particolare codice JavaScript! È un comportamento peculiare e non convenzionale.
 
 
 
